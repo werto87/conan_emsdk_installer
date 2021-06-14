@@ -10,10 +10,6 @@ class EmSDKInstallerConan(ConanFile):
     topics = ("conan", "emsdk", "emscripten", "installer", "sdk")
     license = "MIT"
 
-    settings = {
-        "os_build": ['Windows', 'Linux', 'Macos'],
-        "arch_build": ['x86_64'],
-    }
     short_paths = True
     _source_subfolder = "source_subfolder"
 
